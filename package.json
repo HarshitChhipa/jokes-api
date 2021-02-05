@@ -4,7 +4,8 @@
   "description": "It is simple app to get the jokes.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js --watch"
   },
   "repository": {
     "type": "git",
@@ -22,5 +23,12 @@
   "bugs": {
     "url": "https://github.com/HarshitChhipa/jokes-api/issues"
   },
-  "homepage": "https://github.com/HarshitChhipa/jokes-api#readme"
+  "homepage": "https://github.com/HarshitChhipa/jokes-api#readme",
+  "dependencies": {
+    "json-server": "^0.16.3"
+  },
+  "devDependencies": {
+    "onchange": "^7.1.0",
+    "prettier": "^2.2.1"
+  }
 }
